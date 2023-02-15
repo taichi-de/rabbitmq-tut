@@ -63,4 +63,10 @@ sudo apt-get install rabbitmq-server`
 
 ## rabbitmqctl commands
 
-`sudo rabbitmqctl list_queues`
+- list queues
+
+  `sudo rabbitmqctl list_queues`
+
+- debug
+
+  `sudo rabbitmqctl list_queues name messages_ready messages_unacknowledged`
